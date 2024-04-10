@@ -27,7 +27,7 @@ Dependency injection is used to inject dependencies such as IRandomProvider and 
 ### Separation of Concerns (SoC)
 The code separates concerns by having distinct classes for game logic (Game), random number generation (RandomProvider), user interface (IUserInterface), and mine representation (Mine).Encapsulation:The internal state of the Game class is encapsulated, and its behavior is controlled through public methods (Play, PlayerHitMine, etc.), which adhere to the principle of encapsulation.
 
-
+&nbsp;
 
 Overall, the provided code demonstrates good adherence to SOLID principles, dependency injection, and other best practices, making it modular, testable, and maintainable.
 
