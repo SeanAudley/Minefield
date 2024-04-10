@@ -27,6 +27,8 @@ Dependency injection is used to inject dependencies such as IRandomProvider and 
 ### Separation of Concerns (SoC)
 The code separates concerns by having distinct classes for game logic (Game), random number generation (RandomProvider), user interface (IUserInterface), and mine representation (Mine).Encapsulation:The internal state of the Game class is encapsulated, and its behavior is controlled through public methods (Play, PlayerHitMine, etc.), which adhere to the principle of encapsulation.
 
+
+
 Overall, the provided code demonstrates good adherence to SOLID principles, dependency injection, and other best practices, making it modular, testable, and maintainable.
 
 Time taken 42 minutes. It could do with a refactor to lower the cyclomatic complexeity and enhance IMinefield. Given its state, this is a nice exercise to move across next into Unity in VR as a simple demo in the future! 
